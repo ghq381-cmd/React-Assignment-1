@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -7,9 +8,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
+# Dependencies
+node_modules/
+
+# Build
 dist-ssr
+
+# Local files
 *.local
 
 # Editor directories and files
