@@ -1,16 +1,107 @@
-# React + Vite
+# React Assignment 1 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React website showcasing beautiful natural wonders and famous places around the world, including Victoria Falls and scenic destinations in Pakistan.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Demo:** https://hassan-first-react.surge.sh
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript (JSX)
+- HTML5
+- CSS3
+- Google Fonts (Poppins)
+- Git & GitHub
+- Surge.sh (Hosting)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive website layout
+- Beautiful nature and travel images
+- Information about Victoria Falls
+- Beautiful Places in Pakistan section
+- Clean typography using Poppins
+- Dark background with white text
+- Mobile, tablet, and desktop support
+
+## 📁 Project Structure
+
+```text
+React-Assignment-1/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── dist/
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## 💻 Installation and Setup
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/ghq381-cmd/React-Assignment-1.git
+```
+
+**2. Open the project folder**
+
+```bash
+cd React-Assignment-1
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## 📦 Production Build
+
+```bash
+npm run build
+```
+
+## 🌐 Deployment
+
+This project is deployed using Surge.sh.
+
+```bash
+npm run build
+surge ./dist hassan-first-react.surge.sh
+```
+
+## 🔗 GitHub Repository
+
+https://github.com/ghq381-cmd/React-Assignment-1
+
+## 👨‍💻 Project Information
+
+**Project:** React Assignment 1  
+**Framework:** React + Vite  
+**Styling:** CSS3  
+**Hosting:** Surge.sh  
+**Status:** Deployed
+
+---
+
+⭐ Thank you for visiting this project!
